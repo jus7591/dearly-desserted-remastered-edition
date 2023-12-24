@@ -209,13 +209,32 @@ section {
   color: var(--black);
   text-shadow: var(--box-shadow);
 }
-
+/* Form */
 .form-section {
-  background: url(images/new.jpg) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.form-section form {
+  max-width: 600px; /* Adjust the max-width as needed */
+  width: 100%;
+  margin: auto;
+}
+
+.form-section input,
+.form-section textarea {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  font-size: 1.6rem; /* Adjust the font size as needed */
+}
+
+.form-section button {
+  font-size: 1.8rem; /* Adjust the font size of the button */
+}
+
+/* End of Form CSS */
 
 /* Footer */
 
@@ -320,7 +339,7 @@ section {
   padding: 1rem 0;
 }
 .footer .box-container .box a {
-  display: block;
+  display: flex;
   font-size: 1.6rem;
   color: var(--black);
   padding: 1rem 0;

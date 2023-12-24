@@ -352,11 +352,13 @@ section {
   padding-right: 2rem;
 }
 
-.footer .share {
+.footer .share,
+.container .share {
   padding: 1rem 0;
   text-align: center;
 }
-.footer .share a {
+.footer .share a,
+.container .share {
   height: 4rem;
   width: 4rem;
   line-height: 4rem;
@@ -366,7 +368,8 @@ section {
   margin: 0 0.3rem;
   border-radius: 50%;
 }
-.footer .share a:hover {
+.footer .share a:hover,
+.container .share {
   background: var(--white);
   color: var(--black);
 }

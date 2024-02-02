@@ -93,7 +93,7 @@ html::-webkit-scrollbar-thumb {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url('./images/bar.png');
   background-size: cover;
   background-position: center center;
@@ -112,12 +112,7 @@ html::-webkit-scrollbar-thumb {
   color: var(--myPurple);
   text-shadow: var(--box-shadow);
 }
-.home .homeContent p {
-  font-size: 1.8rem;
-  line-height: 2;
-  margin-bottom: 2rem;
-  font-weight: bold;
-}
+
 .home .homeContent .home-btn {
   height: 3rem;
 }
@@ -462,18 +457,6 @@ section {
 
 /* Footer */
 
-/*
-.back-ground {
-  background: url(images/cookie-kit.jpg) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  float: right;
-  height: 750px;
-  width: 750px;
-  border-radius: 50%;
-}
-*/
-
 .review {
   border-top: 1px solid #000;
 }
@@ -613,15 +596,6 @@ section {
   .gallery .gallery-row .img img {
     height: 300px;
     width: 300px;
-  }
-}
-
-@media (max-width: 1236px) {
-  .home {
-    float: right;
-  }
-  .homeContent {
-    float: left;
   }
 }
 

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/specials-bg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background {
+  background-color: rgb(146, 184, 214);
+  border-radius: 15px;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 600px;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-title {
+  font-family: 'Protest Strike', sans-serif;
+  font-weight: lighter;
+}
+
+.special-text {
+  font-family: 'MonteCarlo', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.main-page-btn {
+  padding-top: 10px;
+}
+
+img {
+  height: 100px;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper {
+  width: 70%;
+  height: fit-content;
+}
+
+.swiper-slide img {
+  width: 1000px;
+  height: 750px;
+  object-fit: cover;
+}

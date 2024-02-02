@@ -564,12 +564,14 @@ section {
 }
 
 .footer .credit {
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 0 0 0 0;
   padding: 30px 0 30px 0;
   border-top: 1px solid #000;
   color: var(--black);
   text-align: center;
+  font-family: 'MonteCarlo', sans-serif;
+  font-weight: bold;
 }
 
 .swiper-pagination-bullet {

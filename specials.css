@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+body {
+  background-image: url(images/specials-bg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 600px;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-title {
+  font-family: 'Protest Strike', sans-serif;
+  font-weight: lighter;
+}
+
+.special-text {
+  font-family: 'MonteCarlo', sans-serif;
+  font-size: 3rem;
+}

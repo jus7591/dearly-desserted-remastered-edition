@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
 
 :root {
   --black: #1b1722;
@@ -140,6 +141,11 @@ section {
   margin-bottom: 3rem;
   color: var(--black);
   font-family: 'Protest Strike', sans-serif;
+}
+
+.quote {
+  font-family: 'Sail', system-ui;
+  font-size: 5rem;
 }
 
 .gallery {

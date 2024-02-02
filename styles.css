@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 :root {
   --black: #1b1722;
@@ -62,11 +65,12 @@ html::-webkit-scrollbar-thumb {
 }
 
 .header .navbar a {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-right: 3rem;
   color: var(--black);
   font-weight: bold;
   text-decoration: none;
+  font-family: 'MonteCarlo', sans-serif;
 }
 
 .header .navbar a:hover {
@@ -135,6 +139,7 @@ section {
   font-size: 2.6rem;
   margin-bottom: 3rem;
   color: var(--black);
+  font-family: 'Protest Strike', sans-serif;
 }
 
 .gallery {
@@ -148,11 +153,10 @@ section {
 }
 .gallery .gallery-row .box {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 50rem;
   background-color: var(--white);
-  align-items: center;
-  text-align: center;
   padding: 2rem;
   gap: 1.5rem;
   border-radius: 3rem;
@@ -178,6 +182,199 @@ section {
   font-size: 1.5rem;
   line-height: 1.6;
   color: var(--black);
+}
+
+.valentines {
+  background-image: url(images/valentine-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.valentines-button {
+  background-color: pink;
+  border: 2px solid red;
+  border-radius: 15px;
+  height: 100px;
+  width: 200px;
+  box-shadow: 10px 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: x-large;
+}
+
+.valentines-button:hover {
+  transform: scale(1.2);
+  box-shadow: -5px -5px;
+  background-color: rgb(203, 101, 101);
+}
+
+.valentines-button:active {
+  background-color: rgb(194, 154, 154);
+}
+
+.st-patrick {
+  background-image: url(images/patrick-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.st-patrick-button {
+  background-color: green;
+  border: 2px solid white;
+  border-radius: 15px;
+  height: 100px;
+  width: 200px;
+  box-shadow: 10px 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: x-large;
+}
+
+.st-patrick-button:hover {
+  transform: scale(1.2);
+  box-shadow: -5px -5px;
+  background-color: rgb(106, 186, 100);
+}
+
+.st-patrick-button:active {
+  background-color: rgb(176, 209, 173);
+}
+
+.easter {
+  background-image: url(images/easter-eggs.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.easter-button {
+  background-image: linear-gradient(
+    #e0cdff,
+    #c1f0fb,
+    #dcf9a8,
+    #ffebaf,
+    #f9ceee
+  );
+  border: 2px solid white;
+  border-radius: 15px;
+  height: 100px;
+  width: 200px;
+  box-shadow: 10px 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: x-large;
+}
+
+.easter-button:hover {
+  transform: scale(1.2);
+  box-shadow: -5px -5px;
+  background-image: linear-gradient(
+    #ffebaf,
+    #f9ceee,
+    #dcf9a8,
+    #c1f0fb,
+    #e0cdff
+  );
+}
+
+.easter-button:active {
+  background-image: linear-gradient(
+    white,
+    #ffebaf,
+    #f9ceee,
+    #dcf9a8,
+    #c1f0fb,
+    white
+  );
+}
+
+.snackboard {
+  background-image: url(images/char.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.snackboard-button {
+  background-color: rgb(218, 157, 118);
+  border: 2px solid white;
+  border-radius: 15px;
+  height: 100px;
+  width: 200px;
+  box-shadow: 10px 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: x-large;
+}
+
+.snackboard-button:hover {
+  transform: scale(1.2);
+  box-shadow: -5px -5px;
+  background-color: rgb(193, 113, 66);
+}
+
+.snackboard-button:active {
+  background-color: rgb(242, 177, 139);
+}
+
+.mothers {
+  background-image: url(images/mothers-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.mothers-button {
+  background-color: rgb(255, 182, 227);
+  border: 2px solid white;
+  border-radius: 15px;
+  height: 100px;
+  width: 200px;
+  box-shadow: 10px 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: x-large;
+}
+
+.mothers-button:hover {
+  transform: scale(1.2);
+  box-shadow: -5px -5px;
+  background-color: rgb(248, 205, 231);
+}
+
+.mothers-button:active {
+  background-color: rgb(240, 193, 223);
+}
+
+.fathers {
+  background-image: url(images/father-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.fathers-button {
+  background-color: rgb(128, 136, 215);
+  border: 2px solid white;
+  border-radius: 15px;
+  height: 100px;
+  width: 200px;
+  box-shadow: 10px 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: x-large;
+}
+
+.fathers-button:hover {
+  transform: scale(1.2);
+  box-shadow: -5px -5px;
+  background-color: rgb(151, 157, 208);
+}
+
+.fathers-button:active {
+  background-color: rgb(155, 164, 245);
 }
 
 .blogs {
@@ -376,13 +573,31 @@ section {
 }
 
 .swiper-pagination-bullet {
-  background-color: var(--myPurple);
+  background-color: var(--white);
+  height: 20px;
+  width: 20px;
+  border: 3px solid black;
 }
 .swiper-button-next {
-  color: var(--black);
+  color: var(--white);
+  border: 3px solid black;
+  background-color: black;
+  border-radius: 10px;
+  opacity: 0.7;
 }
+
 .swiper-button-prev {
-  color: var(--black);
+  color: var(--white);
+  border: 3px solid black;
+  background-color: black;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: scale(1.2);
+  opacity: 1;
 }
 
 /* media queries for web responsive */

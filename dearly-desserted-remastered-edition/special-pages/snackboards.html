@@ -14,70 +14,29 @@
     />
     <link rel="stylesheet" href="../specials.css" />
   </head>
-  <body style="background-image: none; background-color: #222">
-    <div class="container text-center">
-      <button class="btn btn-primary mt-3 ms-2">
+  <body id="snackboard-body">
+    <div class="snack-img-container">
+      <button class="btn btn-primary">
         <a href="../index.html#gallery" class="text-white text-decoration-none"
           >Back To Main Page</a
         >
       </button>
-    </div>
-    <div class="container img-container">
-      <!-- Slider main container -->
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img src="../images/board1.jpg" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="../images/board2.jpg" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="../images/board3.jpg" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="../images/board4.jpg" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="../images/board5.jpg" alt="" />
-          </div>
-          <div class="swiper-slide">
-            <img src="../images/board6.jpg" alt="" />
-          </div>
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+      <img src="../images/board1.jpg" alt="baby charcuterie board image" />
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
+      <img src="../images/board2.jpg" alt="charcuterie board image" />
+
+      <img src="../images/board3.jpg" alt="charcuterie board image" />
+
+      <img src="../images/board4.jpg" alt="charcuterie board image" />
+
+      <img src="../images/board5.jpg" alt="charcuterie board image" />
+
+      <img src="../images/board6.jpg" alt="josie charcuterie board image" />
+      <button class="btn btn-primary">
+        <a href="#" class="text-white text-decoration-none">Back To Top</a>
+      </button>
     </div>
 
-    <script src="script.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-      const swiper = new Swiper('.swiper', {
-        autoplay: {
-          delay: 5000,
-          disableOnInteraction: false,
-        },
-        loop: true,
-
-        pagination: {
-          el: '.swiper-pagination',
-        },
-
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      });
-    </script>
   </body>
 </html>

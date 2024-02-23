@@ -188,17 +188,17 @@ section {
 .holiday {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
+  background-size: contain;
+  height: 500px;
 }
 
 .open-button {
   border-radius: 15px;
-  height: 100px;
-  width: 200px;
+  height: 80px;
+  width: 150px;
   box-shadow: 10px 10px;
   font-family: 'Pacifico', cursive;
-  font-size: x-large;
+  font-size: large;
 }
 
 .open-button:hover {
@@ -241,7 +241,7 @@ section {
 }
 
 .easter {
-  background-image: url(images/easter-eggs.jpg);
+  background-image: url(images/easter-background.jpg);
 }
 
 .easter-button {
@@ -328,7 +328,7 @@ section {
 }
 
 .july {
-  background-image: url(images/fireworks.jpg);
+  background-image: url(images/july-background.jpg);
 }
 
 .july-button {

@@ -69,6 +69,22 @@ img {
   background-color: rgb(189, 85, 85);
 }
 
+#july-div {
+  background-color: rgb(104, 131, 186);
+}
+
+#fall-div {
+  background-color: rgb(147, 117, 47);
+}
+
+#thanksgiving-div {
+  background-color: rgb(202, 113, 40);
+}
+
+#christmas-div {
+  background-color: rgb(120, 172, 107);
+}
+
 #snackboard-body {
   background-image: none;
   background-color: #222;

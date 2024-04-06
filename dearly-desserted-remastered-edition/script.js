@@ -38,35 +38,6 @@ var productSwiper = new Swiper('.gallery-row', {
   },
 });
 
-var blogsSwiper = new Swiper('.blogs-row', {
-  spaceBetween: 30,
-  loop: true,
-  centeredSlides: true,
-  autoplay: {
-    delay: 9500,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 1,
-    },
-    1024: {
-      slidesPerView: 1,
-    },
-  },
-});
-
 var reviewSwiper = new Swiper('.review-row', {
   spaceBetween: 30,
   loop: true,

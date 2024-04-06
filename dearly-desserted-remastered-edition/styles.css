@@ -116,6 +116,7 @@ html::-webkit-scrollbar-thumb {
 .home .homeContent .home-btn {
   height: 3rem;
 }
+
 .home .homeContent .home-btn button {
   font-size: 1.8rem;
   background-color: var(--myPurple);
@@ -124,12 +125,15 @@ html::-webkit-scrollbar-thumb {
   padding: 0.7rem 2.4rem;
   cursor: pointer;
 }
+
 .home .homeContent .home-btn button:hover {
   font-size: 2rem;
 }
+
 section {
   padding: 2rem 7%;
 }
+
 .heading {
   text-align: center;
   font-size: 2.6rem;
@@ -143,300 +147,37 @@ section {
   font-size: 5rem;
 }
 
-.gallery {
-  border-top: 1px solid #000;
-}
-
-.gallery .gallery-row {
-  margin-bottom: 5rem;
-  display: flex;
-  align-items: center;
-}
-.gallery .gallery-row .box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50rem;
-  background-color: var(--white);
-  padding: 2rem;
-  gap: 1.5rem;
-  border-radius: 3rem;
-  margin-right: 3rem;
-}
-.gallery .gallery-row .img img {
-  height: 500px;
-  width: 500px;
-  border-radius: 50%;
+.card-img-top {
   object-fit: cover;
-}
-.gallery .gallery-row .img img:hover {
-  transform: scale(1.1);
-}
-.gallery .gallery-row .content {
-  margin-bottom: 4rem;
-}
-.gallery .gallery-row .gallery-content h3 {
-  font-size: 4rem;
-  color: var(--black);
-}
-.gallery .gallery-row .gallery-content p {
-  font-size: 1.5rem;
-  line-height: 1.6;
-  color: var(--black);
+  height: 600px;
 }
 
-.holiday {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 500px;
+.card {
+  height: 100%;
 }
 
-.open-button {
-  border-radius: 15px;
-  height: 80px;
-  width: 150px;
-  box-shadow: 10px 10px;
-  font-family: 'Pacifico', cursive;
-  font-size: large;
-}
-
-.open-button:hover {
-  transform: scale(1.2);
-  box-shadow: -5px -5px;
-}
-
-.valentines {
-  background-image: url(images/valentine-background.jpg);
-}
-
-.valentines-button {
-  background-color: pink;
-  border: 2px solid red;
-}
-
-.valentines-button:hover {
-  background-color: rgb(203, 101, 101);
-}
-
-.valentines-button:active {
-  background-color: rgb(194, 154, 154);
-}
-
-.st-patrick {
-  background-image: url(images/patrick-background.jpg);
-}
-
-.st-patrick-button {
-  background-color: green;
-  border: 2px solid white;
-}
-
-.st-patrick-button:hover {
-  background-color: rgb(106, 186, 100);
-}
-
-.st-patrick-button:active {
-  background-color: rgb(176, 209, 173);
-}
-
-.easter {
-  background-image: url(images/easter-background.jpg);
-}
-
-.easter-button {
-  background-image: linear-gradient(
-    #e0cdff,
-    #c1f0fb,
-    #dcf9a8,
-    #ffebaf,
-    #f9ceee
-  );
-  border: 2px solid white;
-}
-
-.easter-button:hover {
-  background-image: linear-gradient(
-    #ffebaf,
-    #f9ceee,
-    #dcf9a8,
-    #c1f0fb,
-    #e0cdff
-  );
-}
-
-.easter-button:active {
-  background-image: linear-gradient(
-    white,
-    #ffebaf,
-    #f9ceee,
-    #dcf9a8,
-    #c1f0fb,
-    white
-  );
-}
-
-.snackboard {
-  background-image: url(images/char.jpg);
-}
-
-.snackboard-button {
-  background-color: rgb(218, 157, 118);
-  border: 2px solid white;
-}
-
-.snackboard-button:hover {
-  background-color: rgb(193, 113, 66);
-}
-
-.snackboard-button:active {
-  background-color: rgb(242, 177, 139);
-}
-
-.mothers {
-  background-image: url(images/mothers-background.jpg);
-}
-
-.mothers-button {
-  background-color: rgb(255, 182, 227);
-  border: 2px solid white;
-}
-
-.mothers-button:hover {
-  background-color: rgb(248, 205, 231);
-}
-
-.mothers-button:active {
-  background-color: rgb(243, 214, 232);
-}
-
-.fathers {
-  background-image: url(images/father-background.jpg);
-}
-
-.fathers-button {
-  background-color: rgb(128, 136, 215);
-  border: 2px solid white;
-}
-
-.fathers-button:hover {
-  background-color: rgb(151, 157, 208);
-}
-
-.fathers-button:active {
-  background-color: rgb(155, 164, 245);
-}
-
-.july {
-  background-image: url(images/july-background.jpg);
-}
-
-.july-button {
-  background-image: linear-gradient(red, white, blue);
-  border: 2px solid white;
-}
-
-.july-button:hover {
-  background-image: linear-gradient(blue, white, red);
-  border: 2px solid white;
-}
-
-.fall {
-  background-image: url(images/fall.jpg);
-}
-
-.fall-button {
-  background-color: rgb(253, 172, 22);
-  border: 2px solid white;
-}
-
-.fall-button:hover {
-  background-color: rgb(255, 189, 66);
-}
-
-.fall-button:active {
-  background-color: rgb(246, 195, 100);
-}
-
-.thanksgiving {
-  background-image: url(images/thanksgiving.jpg);
-}
-
-.thanksgiving-button {
-  background-color: rgb(186, 104, 104);
-  border: 2px solid white;
-}
-
-.thanksgiving-button:hover {
-  background-color: rgb(217, 136, 136);
-}
-
-.thanksgiving-button:active {
-  background-color: rgb(241, 176, 176);
-}
-
-.christmas {
-  background-image: url(images/christmas.jpg);
-}
-
-.christmas-button {
-  background-image: linear-gradient(red, white, green);
-  border: 2px solid white;
-}
-
-.christmas-button:hover {
-  background-image: linear-gradient(green, white, red);
-}
-
-.christmas-button:active {
-  background-image: linear-gradient(
-    rgb(32, 189, 32),
-    white,
-    rgb(227, 112, 112)
-  );
-}
-
-.blogs {
-  background: url(images/backGround.png) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border-top: 1px solid #000;
-}
-.blogs .blogs-row .box {
-  display: flex;
-  align-items: center;
-  background-color: var(--white);
-  flex-wrap: wrap;
-}
-.blogs .blogs-row .box .img {
-  flex: 1 1 45rem;
-}
-.blogs .blogs-row .box .img img {
-  width: 100%;
-  padding: 5rem;
-}
-.blogs .blogs-row .box .content {
-  flex: 1 1 45rem;
-  padding: 2rem;
-}
-.blogs .blogs-row .box .content h3 {
-  font-size: 3.5rem;
-  color: var(--black);
-  text-shadow: var(--box-shadow);
-}
-.blogs .blogs-row .box .content p {
-  font-size: 1.6rem;
-  color: var(--black);
-  padding: 1rem 0;
-  line-height: 1.8;
-}
-.blogs .blogs-row .box .content a {
+.card-title {
+  font-family: 'Protest Strike', sans-serif;
+  font-weight: lighter;
   font-size: 2rem;
-  cursor: pointer;
 }
-.blogs .blogs-row .box .content a:hover {
-  color: var(--black);
-  text-shadow: var(--box-shadow);
+
+.special-text {
+  font-family: 'MonteCarlo', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.main-page-btn {
+  padding-top: 10px;
+}
+
+.gallery .row img {
+  height: 450px;
+}
+
+.card-body {
+  font-size: 1.5rem;
 }
 
 /* Form */
